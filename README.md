@@ -8,7 +8,7 @@ This version connects the study tutor, notes, practice questions, test, topic li
 2. In this folder, set any provider keys you have: `OPENAI_API_KEY`, `GEMINI_API_KEY`, and/or `ANTHROPIC_API_KEY`. More than one is needed for provider failover. Never paste a key into `index.html` or share it in a chat.
 3. Run `npm start` and open `http://localhost:4173`.
 
-The app reads keys only on the server. The browser sends study text to the app server, which forwards it to the automatically selected provider. OpenAI requests use `store: false`; avoid entering sensitive or private information.
+The app  reads keys only on the server. The browser sends study text to the app server, which forwards it to the automatically selected provider. OpenAI requests use `store: false`; avoid entering sensitive or private information.
 
 ## Deploy
 
